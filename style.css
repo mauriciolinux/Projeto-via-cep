@@ -1,0 +1,67 @@
+/* links de imports */
+
+@import url('https://fonts.googleapis.com/css2?family=Genos:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: 'Genos', sans-serif;
+    font-weight: bold;
+    font-size: 38px;
+    backdrop-filter: blur(6px);
+}
+
+input {
+    width: auto;
+    background-color: rgb(167, 209, 221);
+    border-width: 0 0 0px 0px;
+    font-size: 20px;
+}
+    
+
+.formulario {
+    color: #080808;
+    margin-left: 27%;
+    padding-top: auto;
+    line-height: 140%;
+
+
+}
+
+div.aviso1 {
+    font-size: 30px;
+    font-style: italic;
+    color: brown;
+    align-items: auto;
+}
+
+div.aviso2 {
+    font-size: 30px;
+    font-style: italic;
+    align-items: auto;
+    margin-left: 10%;
+}
+
+
+h1 {
+
+    font-family: 'Genos', sans-serif;
+    font-size: 80px;
+    margin-block: 5%;
+    margin-left: 12%;
+}
+
+button {
+
+    margin-left: 15%;
+    background-color: rgb(104, 224, 224);
+    font-size: 25px;
+    border-radius: 6px;
+    font-style:bold;
+}
