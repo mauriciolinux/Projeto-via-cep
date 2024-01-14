@@ -1,2 +1,2 @@
 # Projeto-via-cep
- consulta cep esse pagina e para uma consulta de cep de forma simples e intuitiva para o usuario..
+ consulta cep  e uma pagina  para consulta de endereço atravéz do cep de forma simples e intuitiva para o usuario.. ou para ser incorporado numa aplicativo web.
