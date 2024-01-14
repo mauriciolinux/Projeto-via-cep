@@ -16,18 +16,18 @@ body {
     font-weight: bold;
     font-size: 38px;
     backdrop-filter: blur(6px);
+    border-radius: 1%;
 }
 
 input {
     width: auto;
     background-color: rgb(167, 209, 221);
     border-width: 0 0 0px 0px;
-    font-size: 20px;
+    font-size: 25px;
 }
-    
 
 .formulario {
-    color: #080808;
+    color: #020202;
     margin-left: 27%;
     padding-top: auto;
     line-height: 140%;
