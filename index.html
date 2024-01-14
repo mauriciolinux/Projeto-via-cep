@@ -13,28 +13,31 @@
 
 <body background="img/mapa.jpg">
     <!-- Inicio do formulario -->
-    
+
     <div class="formulario">
 
         <h1>Consulta CEP</h1>
         <div class="aviso1">
             <p>"Atençao coloque apenas o CEP.. E clique em Pesquisar"</p>
         </div>
-      
+
         <form method="get" action="#">
 
             <label>Cep:
                 <input name="cep" type="text" id="cep" value="" size="10" maxlength="9" /></label><br />
+
+            <!--daqui para baixo e usado a tag (output) para receber dados da api (via-cep)-->
+
             <label>Rua:
-                <output name="rua" type="text" id="rua" size="43" class="inf"  /></label><br />
+                <output name="rua" type="text" id="rua" size="43" class="inf"></label><br />
             <label>Bairro:
-                <output name="bairro" type="text" id="bairro" size="40" class="inf" /></label><br />
+                <output name="bairro" type="text" id="bairro" size="40" class="inf"></label><br />
             <label>Cidade:
-                <output name="cidade" type="text" id="cidade" size="40" class="inf"   /></label><br />
+                <output name="cidade" type="text" id="cidade" size="40" class="inf"></label><br />
             <label>Estado:
-                <output name="uf" type="text" id="uf" size="2" class="inf"  /></label><br />
+                <output name="uf" type="text" id="uf" size="2" class="inf"></label><br />
             <label>IBGE:
-                <input name="ibge" type="text" id="ibge" size="8" class="inf"  /></label><br /////////////////////////////////////////////////////////////////////////////////////////**************>
+                <input name="ibge" type="text" id="ibge" size="8" class="inf" /></label><br />
 
             <div class="aviso2">
                 <P>"Para uma nova Pesquisa clique em Limpar..."</P>
