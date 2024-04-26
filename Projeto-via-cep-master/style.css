@@ -11,10 +11,10 @@
 
 body {
 
-    background-image: url(img/fundo.jpeg);
+    background-image: url(img/mapa.jpg);
     font-family: 'Genos', sans-serif;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 38px;
     backdrop-filter: blur(6px);
     border-radius: 1%;
 }
@@ -27,7 +27,7 @@ input {
 }
 
 .formulario {
-    color: #181616;
+    color: #020202;
     margin-left: 27%;
     padding-top: auto;
     line-height: 140%;
@@ -53,7 +53,7 @@ div.aviso2 {
 h1 {
 
     font-family: 'Genos', sans-serif;
-    font-size: 50px;
+    font-size: 80px;
     margin-block: 5%;
     margin-left: 12%;
 }
